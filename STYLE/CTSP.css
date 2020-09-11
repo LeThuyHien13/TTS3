@@ -1,0 +1,200 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wap-content-ctsp {
+    height: 100%;
+    width: 1215px;
+    background-color:white;
+    border-bottom: 1px solid #EEE;
+}
+.ctsp-top {
+    height: 60%;
+    width: 1215px;
+    background-color: white;
+    border-bottom: 1px solid #EEE;
+}
+
+.ctsp-left {
+    height: 100%;
+    width: 1000px;
+    background-color: white;
+    float:left;
+}
+.ctsp-left-top {
+    height: 65%;
+    width: 1000px;
+    background-color: white;
+}
+.ctsp-left-top-left {
+    height: 90%;
+    width: 397px;
+    background-color: white;
+    padding-top: 40px;
+    float: left;
+    border-left: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+}
+.ctsp-left-top-right {
+    height: 100%;
+    width: 600px;
+    background-color: white;
+    float: left;
+    
+}
+.ctsp-right-1 {
+    height: 3%;
+    width: 449px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom: 1px solid red;
+    border-Left: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+
+    margin-bottom:10px;
+    margin-left:20px;
+    color:blue;
+    text-align:center;
+    margin-top:20px;
+}
+
+.ctsp-right-2 {
+    height: 3%;
+    width: 449px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom: 1px solid red;
+    border-Left: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+
+    margin-bottom: 10px;
+    text-align: center;
+    color:red;
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+.ctsp-right-3 {
+    height: 27%;
+    width: 449px;
+    background-color: white;
+  
+    margin-left: 20px;
+  
+}
+.mua-ngay {
+    height: 30%;
+    width: 449px;
+    background-color:red;
+    text-align:center;
+    padding-top:5%;
+    border-radius:20px;
+    margin-bottom:3%;
+}
+
+.mua-tra-gop {
+    height: 30%;
+    width: 449px;
+    background-color: red;
+    text-align: center;
+    padding-top: 5%;
+    border-radius: 20px;
+}
+.ctsp-right-4 {
+    height: 25%;
+    width: 449px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    border-bottom: 1px solid red;
+    border-Left: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ctsp-left-bottom {
+    height: 30%;
+    width: 1000px;
+    background-color: blue;
+}
+.lienhe11{
+
+    font-size:20px;
+}
+.lienhe211 {
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    border-radius:50px;
+    height:30%;
+    width:846px;
+    font-size:22px;
+    padding-left:50px;
+    padding-top:30px;
+}
+.cs-in-dk12 {
+    width: 900px;
+    height: 400px;
+    background-color: white;
+}
+.noidung-lienhe11 {
+    width: 900px;
+    height: 400px;
+    background-color: green;
+}
+.ctsp-right {
+    height: 100%;
+    width: 215px;
+    background-color:white;
+    float: left;
+}
+.ctsp-right-1-1 {
+    height: 4%;
+    width: 215px;
+    background-color: white;
+    padding-top:10px;
+}
+
+.ctsp-right-2-2 {
+    height: 40%;
+    width: 150px;
+    background-color:blueviolet;
+}
+.ul_ctsp-right-2-2 {
+    height: 100%;
+    width: 180px;;
+    background-color:blueviolet
+}
+.li_ctsp-right-2-2 {
+    height: 25%;
+
+    width: 180px;
+    background-color:blueviolet;
+    display:inline-block;
+   
+}
+    .li_ctsp-right-2-2 > a:hover {
+        color: white;
+        text-decoration: none;
+    }
+.ctsp-right-2-3 {
+    margin-top:3%;
+        height: 3%;
+        width: 215px;
+        background-color: white;
+        border:1px solid red;
+    }.ctsp-bottom {
+    height: 40%;
+    width: 1215px;
+}
+
+
+

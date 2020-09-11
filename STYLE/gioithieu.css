@@ -1,0 +1,151 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Wap-content-gioithieu {
+    height: 100%;
+    width: 1215px;
+    background-color:white;
+    border-bottom:1px solid #EEE;
+ 
+}
+.Wap-content-gioithieu-1 {
+    height: 5%;
+ 
+    width: 1215px;
+    background-color:white;
+    text-align:center;
+    padding-top:3%;
+    font-size:20px;
+}
+.gioithieu {
+    height: 6%;
+    width: 1215px;
+}
+.gioithieu > a {
+    text-decoration: none;
+}
+.gioithieu:hover{
+
+    color:red;
+}
+.Wap-content-gioithieu-2 {
+    height: 20%;
+    width: 1215px;
+    background-color:green;
+}
+
+.Wap-content-gioithieu-3 {
+    height: 35%;
+    width: 1215px;
+    background-color: red;
+    border-bottom: 1px solid #EEE;
+}
+
+.Wap-content-gioithieu-3-left {
+    height: 100%;
+    width: 565px;
+    background-color: olive;
+    float: left;
+    border-bottom: 1px solid #EEE;
+    padding-right:50px;
+    
+   
+}
+
+.top1{
+    padding-right:60px;
+    margin-top:30px;
+}
+.Wap-content-gioithieu-3-right {
+    height: 100%;
+    width: 600px;
+    background-color: dimgrey;
+    float: left;
+    border-bottom: 1px solid #EEE;
+}
+.top{
+    height:50px;
+    width:100%;
+    background-color:white;
+    margin-top:10px;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+  margin-left:450px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+    button:hover {
+        opacity: 0.8;
+        color: red;
+    }
+.bottom-1{
+    width:100%;
+    height:45px;
+    background-color:aqua;
+    margin-top:20px;
+    text-align:center;
+}
+.bottom-2 {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    margin-top: 20px;
+   
+}
+.bottom-2-left {
+    width: 32%;
+    height: 449px;
+    background-color: white;
+    float: left;
+    border: 1px solid#EEE;
+    border-bottom: 1px solid#EEE;
+}
+.bottom-2-beetween {
+    width: 33%;
+    height: 449px;
+    background-color:white;
+    float: left;
+}
+.bottom-2-right {
+    width: 33%;
+    height: 449px;
+    background-color: white;
+    border: 1px solid#EEE;
+    border-bottom: 1px solid#EEE;
+    float: left;
+}
+.bottom-2-left-1 {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+.bottom-2-left-2 {
+    width: 99%;
+    height:100px;
+    background-color: white;
+    padding-top:10px;
+}
+.bottom-2-left-3 {
+    width: 99%;
+    height: 100px;
+    background-color: white;
+    padding-top: 10px;
+}
+.noidung {
+    width: 99%;
+    height: 100px;
+display:block;
+}
+.noidung > a:hover {
+    color: red;
+    text-decoration:none;
+}

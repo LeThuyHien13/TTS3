@@ -1,0 +1,604 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Wrap_Header_Content {
+    margin-left: 152px;
+    margin-right: 147px;
+    width: 1213px;
+    height: 2000px;
+    background-color: white;
+}
+
+
+.Header {
+    width: 1215px;
+    height: 250px;
+    background-color: white;
+}
+
+.TopBar {
+    width: 1215px;
+    height: 50px;
+    background-color: blue;
+}
+
+.hotline {
+    width: 300px;
+    height: 45px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+    .hotline p span {
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .hotline p > span.number {
+        color: red;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+.menu_top {
+    width: 915px;
+    height: 50px;
+    background-color: blue;
+    float: left;
+}
+
+.menu_top_left {
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    float: left;
+}
+
+.ul_menu_top_left {
+    width: 200px;
+    height: 38px;
+    background-color: white;
+    list-style-type: none;
+    margin-left: 400px;
+    padding-left: 2px;
+    float: left;
+}
+
+.li_menu_top_left {
+    width: 100px;
+    height: 30px;
+    float: left;
+}
+
+    .li_menu_top_left > a:hover {
+        color: red;
+    }
+
+.menu_top_right {
+    width: 315px;
+    height: 50px;
+    background-color: white;
+    float: left;
+}
+
+.ul_menu_top_right {
+    width: 270px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    display: block;
+}
+
+.li_menu_top_right {
+    width: 70px;
+    height: 40px;
+    float: left;
+    display: block;
+}
+
+    .li_menu_top_right > a:hover {
+        text-decoration: none;
+        color: red;
+    }
+
+.HeaderTop {
+    width: 1215px;
+    height: 150px;
+    background-color: red;
+}
+
+.logo {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    float: left;
+}
+
+.picture1 {
+    width: 665px;
+    height: 150px;
+    background-color: gray;
+    float: left;
+}
+
+.HeaderTopcart {
+    width: 299px;
+    height: 130px;
+    background-color: white;
+    padding-top: 20px;
+    float: right;
+}
+
+    .HeaderTopcart p {
+        text-align: center;
+    }
+
+        .HeaderTopcart p span.welcome {
+            padding-left: 20px;
+        }
+
+        .HeaderTopcart p span.gio_hang {
+            color: red;
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 20px;
+        }
+
+.HeaderBottom {
+    width: 1215px;
+    height: 50px;
+    background-color: black;
+}
+
+.MenuPage {
+    width: 700px;
+    height: 50px;
+    background-color: black;
+    float: left;
+}
+
+.ul_MenuPage {
+    padding-left: 0px;
+    list-style-type: none;
+    width: 700px;
+    height: 50px;
+    font-size: 13px;
+    background-color: green;
+    margin-top: 0px;
+}
+
+    .ul_MenuPage > .li_MenuPage {
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+        background-color: rgb(56, 56, 56);
+        text-align: center;
+        color: white;
+        float: left;
+    }
+
+        .ul_MenuPage > .li_MenuPage > a {
+            text-decoration: none;
+            display: block;
+            color: white;
+        }
+
+#MenuId ul li a {
+    text-decoration: none;
+}
+
+    #MenuId ul li a:hover {
+        background: #f1f1f1;
+        color: #333;
+        text-decoration: none;
+    }
+
+#MenuId ul li > #MenuHot {
+    display: none;
+    position: absolute;
+}
+
+#MenuId ul li:hover #MenuHot {
+    display: block;
+    color: gray;
+    font-style: italic;
+    list-style: none;
+}
+
+#MenuHot {
+    color: #222;
+    padding-left: 0;
+    height: 250px;
+    width: 100px;
+    height: 5;
+    background-color: #f1f1f1;
+}
+
+.li_MenuPage :hover {
+
+    display: block;
+}
+
+.li_MenuPage :hover {
+    color: white;
+    background-color: red;
+    display: block;
+}
+
+.Search {
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    font-size: 10px;
+    padding-top: 10px;
+    float: right;
+}
+
+.form-control {
+    width: 250px;
+    height: 35px;
+}
+
+.Content {
+    width: 1213px;
+    height: 2100px;
+    background-color: white;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+}
+
+.content-top {
+    width: 1215px;
+    height: 432px;
+    background-color: white;
+}
+
+.Content-top-left {
+    width: 300px;
+    height: 432px;
+    background-color: white;
+    float: left;
+    border-bottom: 1px solid #EEE;
+}
+
+
+
+    .Content-top-left > ul > h4 {
+        padding: 10px;
+        background-color: red;
+        color: white;
+    }
+
+    .Content-top-left > ul {
+        text-decoration: none;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .Content-top-left li a {
+        display: inline-block;
+        font-size: 0.8em;
+        padding: 8px 15px;
+        color: rgb(153, 82, 82);
+        font-family: 'ambleregular';
+        margin: 0 20px;
+        background: url(../images/drop_arrow.png) no-repeat 0px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+    .Content-top-left a:hover {
+        display: block;
+        background-color: #2a964c;
+        color: white;
+    }
+
+.Content-top-right {
+    width: 915px;
+    height: 432px;
+    background-color: aqua;
+    float: left;
+}
+
+.trinhchieu-anh {
+    height: 400px;
+    width: 50%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.content-bottom {
+    width: 1215px;
+    height: 1300px;
+    background-color: white;
+}
+
+.content-bottom-top {
+    width: 1215px;
+    height: 79px;
+    border-bottom: 1px solid #EEE;
+    background-color: white;
+    margin-top: 20px;
+    border-right: 1px solid #EEE;
+    ;
+}
+
+.heading {
+    float: left;
+}
+
+.see {
+    float: right;
+    padding-top: 8px;
+    font-weight: 200px;
+    font-size: 14px;
+}
+
+    .see > p > a {
+        display: inline;
+        color: #333;
+        text-decoration: none;
+        padding: 0px 12px 0px 0px;
+        font-size: 14px;
+    }
+
+        .see > p > a:hover {
+            color: red;
+        }
+
+.section_group {
+    width: 1215px;
+    height: 450px;
+    background-color: white;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+}
+
+.images_1_of_4:hover {
+    box-shadow: 0 15px 40px 0 rgba(0,0,0,.2);
+    transform: translateY(-10px);
+}
+
+.grid_1_of_4 {
+    margin: 40px;
+    width: 295px;
+    height: 315px;
+    background-color: white;
+    border: 1px solid silver;
+    position: relative;
+    display: inline-block;
+    padding: 15px 0 5px;
+    transition: box-shadow .3s ease-out,transform .3s ease-out;
+}
+
+
+
+.images_1_of_4 {
+    width: 280px;
+    padding: 1.5%;
+    text-align: center;
+    position: relative;
+}
+
+.grid_1_of_4 > h2 {
+    font-size: 17px;
+    padding-top: 4px;
+}
+
+.price-details {
+    margin-top: 10px;
+    border-top: 1px solid #CD1F25;
+}
+
+.price-number {
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+
+.price-details p span.rupees {
+    font-size: 19px;
+    font-family: 'ambleregular';
+    color: red;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.price-details p span.sale {
+    font-size: 14px;
+    font-family: 'ambleregular';
+    color: black;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin: 0px;
+}
+
+.add-cart {
+    width: 90px;
+    height: 30px;
+    background-color: aquamarine;
+    margin-left: 45px;
+    float: left;
+}
+
+    .add-cart a:hover {
+        background: black;
+    }
+
+    .add-cart a {
+        display: block;
+        background: #CD1F25;
+        font-size: 15px;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+.Footer {
+    width: 1215px;
+    height: 400px;
+    background-color: green;
+}
+
+.Footer-top {
+    width: 1215px;
+    height: 300px;
+    background-color: gold;
+}
+
+.top-1 {
+    width: 300px;
+    height: 300px;
+    ;
+    background-color: white;
+    float: left;
+}
+
+    .top-1 > h4 {
+        font-weight: 300;
+        font-size: 18px;
+        margin-left: 20px;
+        color: black;
+    }
+
+.content-top-1 > ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+    .content-top-1 > ul > li > a {
+        text-decoration: none;
+    }
+
+        .content-top-1 > ul > li > a:hover {
+            color: red;
+        }
+
+.top-2 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+    .top-2 > h4 {
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 20px;
+        color: black;
+    }
+
+.content-top-2 > ul {
+    padding-left: 0px;
+    list-style: none;
+    color: black;
+}
+
+    .content-top-2 > ul > li > a {
+        text-decoration: none;
+    }
+
+        .content-top-2 > ul > li > a:hover {
+            color: red;
+        }
+
+.top-3 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+    .top-3 > h4 {
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 20px;
+        color: black;
+    }
+
+.content-top-3 > ul {
+    padding-left: 0px;
+    list-style: none;
+    color: black;
+}
+
+    .content-top-3 > ul > li > a {
+        text-decoration: none;
+    }
+
+        .content-top-3 > ul > li > a:hover {
+            color: red;
+        }
+
+.top-4 {
+    width: 315px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+    .top-4 > h4 {
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 20px;
+        color: black;
+    }
+
+
+.footer-widget > ul {
+    color: white;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+    .footer-widget > ul > li > a {
+        text-decoration: none;
+    }
+
+        .footer-widget > ul > li > a:hover {
+            color: red;
+        }
+
+
+.Footer-bottom-1 {
+    width: 1215px;
+    height: 50px;
+    background-color: red;
+}
+
+.left {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    padding-left: 200px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.right {
+    width: 705px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.Footer-bottom-2 {
+    width: 1215px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
